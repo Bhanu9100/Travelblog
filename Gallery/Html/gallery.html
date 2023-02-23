@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../Css/gallery.css">
+    <link rel="stylesheet" href="../Css/navbar.css">
+    <script src="../Javascript/gallery.js" defer></script>
+</head>
+<body id="ban" onload="colo()">
+    <div id="a">
+        <h1 id="heading">Travelled Image Gallery</h1>
+    </div>
+    <div id="bigscreen" class="fullscreenimg" style="display:none;" onclick="imgV()">
+        <img id="fulimg" src="../assets/img1.jpg">
+        <h1 id="imageheading">Heading</h1>
+        <p id="imgparagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Nam doloribus iusto, quibusdam accusantium sapiente dolorem reiciendis 
+             harum officia adipisci tempore.</p>
+    </div>
+    <body id="banu">
+        <div id="navbar">
+            <ul id="mainlist">
+                <li class="li"><a href="../../index.html">Home</a></li>
+                <li class="li" id="sublistplace">Places
+                    <ul id="sublist">
+                        <a href="#" ><li class="sli">India</li></a>
+                        <li class="sli">Dubai</li>
+                        <li class="sli">Srilanka</li>
+                        <li class="sli">Thailand</li>
+                        <li class="sli">Korea</li>
+                    </ul>
+                </li>
+                </li   >
+                <li class="li"><a href="../../html/Aboutus.html">Info  </a> </li>
+                <li class="li"><a href="../../html/logintotravelblog.html">Logout</a></li>
+            </ul>
+        </div>
+    </body>
+    </html>
+    <div class="bodyofgallery">
+        <img src="../assets/img1.jpg" onclick="imgK(this.src,'Beautiful Flowers','The view looks most beutiful and awesome')">
+        <img src="../assets/img2.jpg" onclick="imgK(this.src,'Mountains','The view looks most beutiful and awesome')">
+        <img src="../assets/img3.jpg" onclick="imgK(this.src,'Air Ballons','The view looks most beutiful and awesome')">
+        <img src="../assets/img4.jpg" onclick="imgK(this.src,'River','The view looks most beutiful and awesome')">
+        <img src="../assets/img5.jpg" onclick="imgK(this.src,'City View','The view looks most beutiful and awesome')">
+        <img src="../assets/img6.jpg" onclick="imgK(this.src,'City Lights','The view looks most beutiful and awesome')">
+        <img src="../assets/img7.jpg" onclick="imgK(this.src,'The House','The view looks most beutiful and awesome')">
+        <img src="../assets/img8.jpg" onclick="imgK(this.src,'The Ligts','The view looks most beutiful and awesome')">
+    </div>
+</body>
+</html>
