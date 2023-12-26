@@ -44,7 +44,6 @@
     position: absolute;
     right: 20%;
     color: pink;
-    top: 20%
 }
 #rightpara{
     color: white;
@@ -81,7 +80,7 @@
     color: white;
     width: 50%;
     position: absolute;
-    top: 130%;
+    top: 100%;
     left: 1%;
     text-align: justify;
     text-indent: 20px;
