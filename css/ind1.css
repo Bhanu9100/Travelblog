@@ -43,7 +43,8 @@
 #rightHeading{
     position: absolute;
     right: 20%;
-    color: blue;
+    top:10%;
+    color: pink;
 }
 #rightpara{
     color: white;
@@ -52,7 +53,7 @@
     width: 50%;
     position: absolute;
     right: 1%;
-    top: 20%;
+    top: 25%;
     font-size: 24px;
 }
 #videolayoutright{
